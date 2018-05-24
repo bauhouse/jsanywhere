@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  padding: 0 .75rem;
+  background: #ddeeff;
+}
+
+textarea, input {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: .75rem;
+  margin: .75rem 0;
+}
+
+textarea {
+  /* height: 15rem; */
+}
+
+label {
+  font-weight: 700;
+}
+
+button {
+  font-size: 1rem;
+}
