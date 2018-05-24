@@ -5,6 +5,12 @@ body {
   background: #ddeeff;
 }
 
+.page {
+  margin: 5% auto 0;
+  width: 100%;
+  max-width: 960px;
+}
+
 textarea, input {
   color: black;
   font-size: 1rem;
