@@ -4,7 +4,7 @@ function steamrollArray(arr) {
   var res = [];
   var level = 0;
   if (Array.isArray(arr)) {
-    res.push([level, arr]);
+    // res.push([level, arr]);
     findArrays(arr, level, res);
   }
   return res;
@@ -16,11 +16,14 @@ function findArrays(obj, level, res, isArr = false) {
     level++;
     var arr = obj;
     for (var i = 0; i < arr.length; i++) {
-      res.push([level, arr[i], isArr]);
+      // res.push([level, arr[i], isArr]);
       findArrays(arr[i], level, res, isArr);
       // console.log('this is an array: ' + arr[i]);
       // console.log('level: ' + level);
     }
+  } else {
+    // console.log("obj: " + obj);
+    res.push(obj);
   }
   return 'Array recursion completed';
 }
