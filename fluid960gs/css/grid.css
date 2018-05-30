@@ -8,6 +8,8 @@
 /* =Containers
 --------------------------------------------------------------------------------*/
 
+@media screen and (min-width: 1024px) {
+
 .container_12,
 .container_16
 {
@@ -437,6 +439,8 @@
 .container_16 .suffix_15
 {
 	padding-right: 93.75%;
+}
+
 }
 
 /* =Clear Floated Elements
